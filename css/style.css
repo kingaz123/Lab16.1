@@ -1,13 +1,17 @@
 body {
   font-family: "Arial", sans-serif;
-  background-color: #f0f0f0;
+  background-color: #222;
+  color: #fff;
   margin: 0;
 }
 
 #main {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 #heading {
@@ -15,14 +19,14 @@ body {
 }
 
 #title {
-  color: #333;
+  color: #ffcc00;
   font-size: 400%;
   width: 60vmax;
 }
 
 .introduction {
   font-size: 16px;
-  color: #555;
+  color: #ccc;
   margin-bottom: 50px;
 }
 
@@ -39,7 +43,7 @@ body {
 }
 
 #img-caption {
-  color: #777;
+  color: #999;
   font-style: italic;
   margin-top: 0;
   padding-top: 0;
@@ -50,7 +54,7 @@ body {
 }
 
 #tribute-info h2 {
-  color: #333;
+  color: #ffcc00;
 }
 
 #tribute-info ul {
@@ -59,6 +63,7 @@ body {
 
 #tribute-info li {
   margin-bottom: 10px;
+  color: #ccc;
 }
 
 .center {
